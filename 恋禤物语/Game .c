@@ -40,7 +40,7 @@ char Laod_UserData(void)
     }
 
     count += fread(PlayerName, sizeof(char), 50, userdata);
-    printf("用户名读取成功！\n")
+    printf("用户名读取成功！\n");
 }
 
 //游戏初始化
