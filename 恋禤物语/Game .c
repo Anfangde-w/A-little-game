@@ -36,11 +36,30 @@ char Laod_UserData(void)
     if (userdata == NULL)
     {
         printf("文件读取失败！\n");
-        return 1;
+        return 0;
     }
 
     count += fread(PlayerName, sizeof(char), 50, userdata);
+    fclose(userdata);
     printf("用户名读取成功！\n");
+    return 1;
+}
+
+//文件数据的写入
+char Laod_UserData(void)
+{
+    size_t count = 0;
+    FILE* userdata = fopen("userdata.bin", "wb");
+    if (userdata == NULL)
+    {
+        printf("文件写入失败！\n");
+        return 0;
+    }
+
+    count += fwrite(PlayerName, sizeof(char), 50, userdata);
+    fclose(userdata);
+    printf("用户名写入成功！\n");
+    return 1;
 }
 
 //游戏初始化
