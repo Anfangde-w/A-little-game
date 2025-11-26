@@ -1,10 +1,9 @@
 # 恋禤物语
 ## 介绍 (中文)
-这是我在学校突发奇想创建的一个小游戏(主要是与某人有一定的私人恩怨，现在正在用代码互怼)。
+这是我在学校突发奇想创建的一个小游戏。
 游戏的主题是以恋爱为主的galgame，现在暂时还没有想好完整的剧情，只是想先把框架搭好。
 ## Introduction (English)
-This is a small game I came up with on a whim at school (mainly due to some personal issues with someone,
-and now we're confronting each other through code). The theme of the game is a romance-focused galgame.
+This is a small game I came up with on a whim at school. The theme of the game is a romance-focused galgame.
 I haven't fully developed the complete storyline yet—for now, I just want to build the framework first.
 
 ---
